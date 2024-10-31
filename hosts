@@ -1,0 +1,19 @@
+[all]
+clab-arista-labs-eos-01 ansible_network_os=eos ansible_user=admin ansible_password=admin ansible_connection=network_cli
+clab-arista-labs-eos-02 ansible_network_os=eos ansible_user=admin ansible_password=admin ansible_connection=network_cli
+clab-arista-labs-eos-03 ansible_network_os=eos ansible_user=admin ansible_password=admin ansible_connection=network_cli
+clab-arista-labs-eos-04 ansible_network_os=eos ansible_user=admin ansible_password=admin ansible_connection=network_cli
+clab-arista-labs-eos-05 ansible_network_os=eos ansible_user=admin ansible_password=admin ansible_connection=network_cli
+
+[north]
+clab-arista-labs-eos-01
+clab-arista-labs-eos-02
+
+[south]
+clab-arista-labs-eos-03
+
+[west]
+clab-arista-labs-eos-04
+
+[east]
+clab-arista-labs-eos-05
